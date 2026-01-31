@@ -21,7 +21,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const SVG_SOURCE_DIR = path.join(__dirname, "icon-svg");
+const SVG_SOURCE_DIR = path.join(__dirname, "icons");
 const OUTPUT_DIR = path.join(__dirname, "dist");
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "ndit-icons.js");
 const ICON_PREFIX = "ndit";
