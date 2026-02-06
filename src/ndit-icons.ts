@@ -55,3 +55,4 @@ console.info(
   "color: white; background: #4CAF50; font-weight: bold;",
   "color: #4CAF50; background: transparent;"
 );
+
