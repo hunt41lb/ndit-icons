@@ -1,4 +1,4 @@
-/**
+/** ndit-icons/src/ndit-icons.ts
  * NDIT Icons - Custom icon set for Home Assistant
  *
  * This file is the main entry point for the icon library.
