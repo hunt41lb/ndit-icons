@@ -1,5 +1,6 @@
 {
   "name": "NDIT Icons",
   "render_readme": true,
-  "filename": "ndit-icons.js"
+  "filename": "ndit-icons.js",
+  "content_in_root": false
 }
