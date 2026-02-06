@@ -1,0 +1,20 @@
+{
+  "name": "ndit-icons",
+  "version": "0.1.0",
+  "description": "Custom SVG icons for Home Assistant",
+  "author": "hunt41lb",
+  "license": "MIT",
+  "scripts": {
+    "build:icons": "node scripts/build-icons.js",
+    "build:bundle": "rollup -c rollup.config.mjs",
+    "build": "npm run build:icons && npm run build:bundle",
+    "dev": "npm run build:icons && rollup -c rollup.config.mjs --watch"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.28.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  }
+}
