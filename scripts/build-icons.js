@@ -2,7 +2,7 @@
 
 /**
  * build-icons.js
- *
+ * ndit-icons/scripts/build-icons.js
  * Scans icons/ directory for SVG files, extracts <path d="..."> data,
  * and generates src/icons-map.ts with all icons.
  *
